@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+/* Nav Bar  */
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {   
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+/* Loccation related */
+.Location {
+    padding: 9px 9px 10px 9px;
+    margin: 7px 2px 7px 0;
+}
+.deliver_to {
+    color: #CCCCCC;
+    font-size: 0.7rem;
+    height: 13px;
+    margin-left: 15px;
+}
+.India {
+    font-size: 0.90rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.location_icon {
+    display: flex;
+    align-items: center;
+}
+i {
+    height: 14px;
+}
+
+/* Search bar */
+.nav_serch {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 650px;
+    border-radius: 3px;
+}
+.search-selsct {
+    width: 45px;
+    background-color: #E6E6E6;
+    color: #0f1111;
+    text-align: center;
+    font-size: 0.65rem;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.orange-border:hover {
+    border-radius: 3px;
+    box-shadow: 0 0 0 3px orange;
+}
+
+.search-input {
+    height: 37.spx;
+    width: 100%;
+    font-size: 0.85rem;
+    border: none;
+}
+.search_icon {
+    display: flex;
+    height: 40px;
+    width: 45px;
+    background-color: #FEBD69;
+    color: #001F2E;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 1.2rem;
+}
+
+/* Language options */
+.nav-language {
+    display: inline-flex;
+    padding: 13px 0px 10px 5px;
+}
+.language-select {
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    width: 40px;
+}
+.language-logo {
+    font-size: 1.4rem;
+}
+.language-option {
+    color: black;
+}
+
+/* Sign in options */
+.nav-signin {
+    padding: 11px 9px 11px;
+}
+.nav-first {
+    font-size: 0.7rem;
+}
+.nav-second {
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+/* Returns & Orders */
+.nav-orders {
+    padding: 10px 9px 10px;
+}
+
+/* Cart option */
+.nav-cart i {
+    font-size: 1.6rem;
+}
+.nav-cart {
+    font-size: .8rem;
+    font-weight: bold;
+    padding: 11px 7px 11px 7px;
+}
+.nav-cart i:hover {
+    font-size: 1.65rem;
+}
+.nav-cart:hover {
+    font-size: .75rem;
+}
+
+
+
+
+/* Control Pannel */
+.pannel {
+    background-color: #232F3E;
+    height: 35px;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.pannel-all i {
+    font-size: 1rem;
+    margin: 0px 4px 0px 0px;
+}
+.pannel-all {
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 9px 10px 9px;
+    display: flex;
+}
+.pannel-all p {
+    align-items: center;
+}
+
+/* Pannel options */
+.pannel-options {
+    display: flex;
+
+}
+.option {
+    padding: 10px 7px 10px 7px;
+}
+
+/* Shop deals in Electronics */
+.pannel-deals {
+    font-weight: bold;
+    font-size: .9rem;
+    position: absolute;
+    right: 10px;
+    padding: 9px;
+}
+
+
+/* Hero section  */
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    display: flex;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 97%;
+    margin: 0 0 25px 0;
+}
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin: 0 0 0 3px;
+    font-size: 0.9rem;
+}
+.hero-msg a:hover {
+    text-decoration: underline;
+    color: #C7511F;
+}
+
+
+
+/* Body tag */
+/* Shop section */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #BACFD2;
+}
+.box {
+    height: 100px;
+    width: 23%;
+    height: 420px;
+    margin: 19px 0 0 0;
+    background-color: white;
+}
+.box-content {
+    margin: 20px 0 0 16px;
+}
+.box-content h2 {
+    font-size: 1.36rem;
+}
+.box-content a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #007185;
+}
+.box-img {
+    height: 300px;
+    width: 94%;
+    background-size: cover;
+    margin: 12px 0 25px 0;
+}
+.box-content a:hover {
+    color: #C7511F;
+}
+.box1 {
+    margin-bottom: 19px;
+}
+
+
+/* footer */
+/* sign in option */
+.sign-in {
+    height: 125px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 40px 0 20px 0;
+    font-size: 0.7rem;
+}
+.sign-in div {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 4px 0;
+}
+.sign-in p {
+    font-size: 0.85rem;
+    margin-top: 40px;
+}
+.sign-in button {
+    width: 230px;
+    height: 30px;
+    background-color: #ffd144;
+    border: 1.5px solid #ffa500;
+    border-radius: 4px;
+    text-shadow: 0 1px 0 #ffe093;
+    font-weight: 600;
+    font-size: 12px;
+}
+.sign-in a {
+    color: #007185;
+    text-decoration: none;
+    margin-left: 2px;
+}
+.sign-in a:hover {
+    color: #C7511F;
+}
+
+/* Bottom section */
+/* First pannel */
+.foot-pannel-1 {
+    height: 50px;
+    width: 100%;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 0.85rem;
+}
+
+/* Second Pannel */
+.foot-pannel-2 {
+    height: 320px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-pannel-2 p {
+    margin-top: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 14px;
+}
+.foot-pannel-2 a {
+    color: white;
+    text-decoration: none;
+    font-size: .85rem;
+    margin-bottom: 10px;
+    display: block;
+}
+.foot-pannel-2 a:hover {
+    text-decoration: underline;
+}
+
+/* Third Pannel */
+.foot-pannel-3 {
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding: 10px 0 10px 0;
+    border-top: 0.1px solid rgba(128, 128, 128, 0.3);
+
+}
+.foot-pannel-3 select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: auto;
+}
+.foot-pannel-3 i {
+    color: white;
+} 
+.foot-pannel-3 div {
+    display: inline-block;
+}
+.foot-language {
+    border: 1px solid #767676;
+    padding: 6px 8px 6px 8px;
+    border-radius: 3px;
+    margin-left: 80px;
+}
+.logo1 {
+    position: relative;
+    top: 6px;
+}
+.hr {
+    color: #767676;
+}
+
+/* Forth pannle  */
+.foot-pannel-4 {
+    background-color: #232f3e;
+    padding:0 12px 35px 0;
+}
+.foot-pannel-4 ul {
+    display: flex;
+    justify-content: center;
+}
+.foot-pannel-4 div {
+    display: flex;
+    justify-content: center;
+}
+.foot-pannel-4 li {
+    list-style: none;
+}
+.foot-pannel-4 a {
+    color: white; 
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+.foot-pannel-4 a:hover {
+    text-decoration: underline;
+}
+
+/* Fifth pannel */
+.foot-pannel-5 {
+    background-color: #131A22;
+    padding-bottom: 12px;
+}
+.foot-pannel-5-options {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px;
+}
+.foot-pannel-5 p {
+    color: white;
+    font-size: 0.80rem;
+}
+.foot-pannel-5 a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.79rem;
+    display: block;
+}
+.foot-pannel-5 a:hover {
+    text-decoration: underline;
+}
+
+/* Sixth Pannel */
+.foot-pannel-6 {
+    background-color: #131A22;
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.foot-pannel-6 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+}
+.foot-pannel-6 a:hover {
+    text-decoration: underline;
+}
+.foot-pannel-6 p {
+    margin-top: 3px;
+}
